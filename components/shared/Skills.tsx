@@ -62,7 +62,7 @@ function Skills() {
                   </span>
                   , I started my career in computer hardware repair and{" "}
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-teal-500 font-medium">
-                    graphic visual design
+                    web design
                   </span>
                   . This foundation in both technology and creativity sparked my
                   interest in coding, where I could combine{" "}
@@ -90,7 +90,7 @@ function Skills() {
                   functional and visually engaging. With a passion for teaching,
                   I share my knowledge of{" "}
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-green-500 font-medium">
-                    FlutterFlow
+                    Content Management System
                   </span>
                   , helping others build responsive applications.
                 </p>
@@ -98,7 +98,7 @@ function Skills() {
                 <p className="mt-4">
                   My approach to{" "}
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-500 font-medium">
-                    UI/UX design
+                    UI design
                   </span>{" "}
                   is shaped by my background in graphic design and video
                   editing, always keeping aesthetics and user experience at the

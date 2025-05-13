@@ -43,17 +43,17 @@ function HeroSection() {
 
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-4 md:mb-6 lg:mb-8">
                 <span className="animate-pulse bg-gradient-to-r from-white/90 to-white/70 bg-clip-text text-transparent backdrop-blur-sm">
-                  Olinya Paul{" "}
+                  Meshach {" "}
                 </span>
                 <span className="bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent">
-                  Chinedu
+                  Arinze
                 </span>
               </h1>
 
               <p className="text-gray-300 text-sm sm:text-base md:text-[15px] mb-6 md:mb-8 lg:mb-12 max-w-2xl leading-relaxed">
                 I'm Paul, a seasoned{" "}
                 <span className="bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent font-medium">
-                  MERN Stack Developer
+                  Fullstack Next.js Developer
                 </span>{" "}
                 with expertise in
                 <span className="bg-gradient-to-r from-blue-300 to-cyan-300 bg-clip-text text-transparent font-medium">
