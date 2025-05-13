@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import styles from './heroSection.module.css';
 import { FloatingDockDemo } from "./Dock";
 import SlideIn from "./SlideIn";
 
@@ -103,7 +102,7 @@ function HeroSection() {
                           title="YouTube video player"
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                           allowFullScreen
-                          className={`absolute inset-0 w-full h-full ${styles.iframeContainer}`}
+                          className="absolute inset-0 w-full h-full"
                           onMouseEnter={() => setIsVideoOrImage("isImage")}
                           onMouseLeave={() => setIsVideoOrImage("isVideo")}
                         />
