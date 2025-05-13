@@ -53,7 +53,7 @@ export const projectData = [
     title: "Summer of Bitcoin",
     icon: ShieldCheckIcon,
     device: "laptop",
-    niche: "Blockchai and Crypto",
+    niche: "Blockchain and Crypto",
     description:
       "A cutting-edge real estate platform where users can effortlessly search and rent houses or properties. Prestige Horizons offers a seamless and intuitive experience, connecting buyers and renters with their dream properties.",
     technologies: [
