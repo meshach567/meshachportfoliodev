@@ -116,7 +116,7 @@ export const projectData = [
       },
     ],
     livePreview: "https://x-app-cbm9.onrender.com/",
-    sourceCode: "https://github.com/OLINYA-PAUL/X_app",
+    sourceCode: "https://github.com/meshach567",
     image: "/assets/images/X_app.PNG",
   },
 ];

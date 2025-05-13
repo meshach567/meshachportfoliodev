@@ -1,6 +1,6 @@
 export const experiences = [
   {
-    role: "Frontend Developer",
+    role: "Frontend Engineer",
     duration: "Oct 2024 - Present",
     // link: "https://clouddley.com/",
     company: "10Billion",
@@ -10,8 +10,8 @@ export const experiences = [
     technologies: ["TailwindCss", "React", "TypeScript"],
   },
   {
-    role: "Frontend Developer Intern",
-    duration: "Oct 2022 - Jan 2023",
+    role: "Fullstack Developer intern",
+    duration: "May 2024 - Dec 2024",
     // link: "https://clouddley.com/",
     company: "Zormor",
     location: "https://zormor.com",
