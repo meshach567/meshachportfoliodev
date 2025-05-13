@@ -35,8 +35,7 @@ function HeroSection() {
                 <div className="flex items-center">
                   <span className="inline-block bg-green-500 rounded-full w-1.5 sm:w-2 h-1.5 sm:h-2 mr-2 animate-pulse" />
                   <span className="text-gray-300 text-xs sm:text-sm font-light">
-                    Let me transform your ideas into reality. I'm available for
-                    freelance projects and collaborations.
+                    Let me transform your ideas into reality. I'm available for Remote, Open Source, Hackathon and collaborations.
                   </span>
                 </div>
               </div>
@@ -51,9 +50,9 @@ function HeroSection() {
               </h1>
 
               <p className="text-gray-300 text-sm sm:text-base md:text-[15px] mb-6 md:mb-8 lg:mb-12 max-w-2xl leading-relaxed">
-                I'm Paul, a seasoned{" "}
+                I'm Meshach, a seasoned{" "}
                 <span className="bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent font-medium">
-                  Fullstack Next.js Developer
+                  Fullstack TypeScript Developer
                 </span>{" "}
                 with expertise in
                 <span className="bg-gradient-to-r from-blue-300 to-cyan-300 bg-clip-text text-transparent font-medium">
@@ -74,7 +73,7 @@ function HeroSection() {
                 <br className="hidden sm:block" />
                 Let's create a{" "}
                 <span className="bg-gradient-to-r from-rose-300 to-pink-300 bg-clip-text text-transparent font-medium">
-                  powerful, high-performance MERN stack app
+                  powerful, high-performance Product app
                 </span>{" "}
                 tailored to your business needs. Contact me to get started.
               </p>
