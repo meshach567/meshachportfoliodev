@@ -69,8 +69,8 @@ export const Projects = () => {
                 <div className="col-span-12 md:col-span-6 lg:col-span-6 pl-6 md:pl-4 pr-8 pt-11 text-left">
                   {/* HEADER SECTION */}
                   <h1 className="text-gray-200 text-3xl mb-1 font-medium flex items-center gap-2">
-                    <project.icon className="p-2 rounded-full h-10 w-10 bg-white/5 backdrop-blur-sm" />{" "}
                     {project.title}
+                    <project.icon className="p-2 rounded-full h-10 w-10 bg-white/5 backdrop-blur-sm" />{" "}
                   </h1>
                   <p className="text-gray-400 tracking-wide pt-2 font-light">
                     {project.description}

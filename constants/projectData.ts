@@ -47,7 +47,7 @@ export const projectData = [
     livePreview:
       "https://zormor.com",
     sourceCode: "https://github.com/zormor",
-    image: "assets/images/ecommerce_categories_section.PNG",
+    image: "assets/images/zormor.png",
   },
   {
     title: "Summer of Bitcoin",
