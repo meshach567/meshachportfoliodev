@@ -97,7 +97,7 @@ function HeroSection() {
                           : "opacity-0"
                       }`}
                     >
-                        <iframe
+                        {/* <iframe
                           src="https://www.youtube.com/embed/NnuVAiKOoa0?autoplay=1&mute=1&loop=1&playlist=NnuVAiKOoa0&controls=0"
                           title="YouTube video player"
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -105,7 +105,7 @@ function HeroSection() {
                           className="absolute inset-0 w-full h-full"
                           onMouseEnter={() => setIsVideoOrImage("isImage")}
                           onMouseLeave={() => setIsVideoOrImage("isVideo")}
-                        />
+                        /> */}
                       </div>
                 
                   ) : (
@@ -135,12 +135,12 @@ function HeroSection() {
 
                 <div className="absolute bottom-0 left-0 right-0 backdrop-blur-sm bg-black/20 px-4 sm:px-6 py-3 sm:py-5">
                   <p className="bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent font-medium text-base sm:text-lg">
-                    Full-Stack Developer
+                    Product Engineer
                   </p>
                   <div className="flex items-center mt-1 sm:mt-2">
                     <div className="w-1 h-1 rounded-full bg-gray-400 mr-2" />
                     <p className="text-gray-300 text-xs sm:text-sm bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent">
-                      Abuja, Nigeria
+                      Lagos, Nigeria
                     </p>
                   </div>
                 </div>
