@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Meshach Arinze | Portfolio",
-  description: `I'm Meshach, a Fustack Next.js Developer experienced in MongoDB, Express.js, React.js, and Node.js. I work with startups and businesses to build fast and scalable web applications.
+  description: `I'm Meshach, a Fullstack Next.js Developer experienced in MongoDB, Express.js, React.js, and Node.js. I work with startups and businesses to build fast and scalable web applications.
 I write clean code, design user-friendly interfaces, and build systems that grow with your business. Whether you're starting a new project or improving an existing one, I can help you build a solid web application.
 Reach out if you need a reliable Product Engineer, UI Engineer, Frontend developer.`,
   icons: {
