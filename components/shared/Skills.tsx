@@ -71,7 +71,7 @@ function Skills() {
                   </span>{" "}
                   with{" "}
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-red-500 font-medium">
-                    artistic expression
+                    Leadership and mentoring
                   </span>
                   .
                 </p>
@@ -100,8 +100,7 @@ function Skills() {
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-500 font-medium">
                     UI design
                   </span>{" "}
-                  is shaped by my background in graphic design and video
-                  editing, always keeping aesthetics and user experience at the
+                  is shaped by my background in web design and web development, always keeping aesthetics and user experience at the
                   forefront. For me,{" "}
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-500 to-purple-600 font-medium">
                     coding
