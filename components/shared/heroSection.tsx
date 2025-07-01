@@ -57,7 +57,7 @@ function HeroSection() {
                 with expertise in
                 <span className="bg-gradient-to-r from-blue-300 to-cyan-300 bg-clip-text text-transparent font-medium">
                   {" "}
-                  MongoDB, Express.js, React.js, and Node.js
+                  React.js, Next.js, Node.js, Python and Wordpress for Traditional Headless CMS
                 </span>
                 . I help startups and growing businesses build fast, scalable,
                 and production-ready web applications.{" "}
@@ -134,7 +134,7 @@ function HeroSection() {
 
                 <div className="absolute bottom-0 left-0 right-0 backdrop-blur-sm bg-black/20 px-4 sm:px-6 py-3 sm:py-5">
                   <p className="bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent font-medium text-base sm:text-lg">
-                    Product Engineer
+                    Product Engineer | UI Engineer | Frontend Developer
                   </p>
                   <div className="flex items-center mt-1 sm:mt-2">
                     <div className="w-1 h-1 rounded-full bg-gray-400 mr-2" />
