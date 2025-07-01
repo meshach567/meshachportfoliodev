@@ -1,9 +1,15 @@
-import { IconClothesRack, IconSchool, IconSocial } from "@tabler/icons-react";
+import {
+  IconClothesRack,
+  IconSchool,
+  IconSocial,
+  IconBrandAirbnb,
+} from "@tabler/icons-react";
 import {
   ShieldCheckIcon,
   SunIcon,
   QueueListIcon,
 } from "@heroicons/react/24/outline";
+import { title } from "process";
 export const projectData = [
   {
     title: "zormor",
@@ -44,8 +50,7 @@ export const projectData = [
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
       },
     ],
-    livePreview:
-      "https://zormor.com",
+    livePreview: "https://zormor.com",
     sourceCode: "https://github.com/zormor",
     image: "assets/images/zormor.png",
   },
@@ -119,4 +124,138 @@ export const projectData = [
     sourceCode: "https://github.com/meshach567",
     image: "/assets/images/X_app.PNG",
   },
+  {
+    title: "AirBNB",
+    icon: IconBrandAirbnb,
+    niche: "Hospitality and Tourism",
+    device: "laptop",
+    description:
+      "A sleek and aesthetically designed e-commerce app featuring a vast array of products across multiple categories. The app boasts a user-friendly interface, intuitive navigation, and seamless shopping experience.",
+    technologies: [
+      {
+        name: "TypeScript",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+      },
+      {
+        name: "Next.js",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+        style: "bg-black",
+      },
+      {
+        name: "Tailwind",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      },
+      {
+        name: "Node.js",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+      },
+    ],
+    livePreview: "https://airbnbclone-rosy.vercel.app/",
+    sourceCode: "https://github.com/meshach567/airbnb-clone",
+    image: "assets/images/airbnb.png",
+  },
+  {
+     title: "AirBNB",
+    icon: IconBrandAirbnb,
+    niche: "User Feedback Management",
+    device: "laptop",
+    description:
+      "FeedbackHub is an innovative customer feedback management software designed to serve as a central hub for businesses of all sizes to efficiently gather, analyze, and manage customer feedback.",
+    technologies: [
+      {
+        name: "TypeScript",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+      },
+      {
+        name: "React.js",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+        style: "bg-black",
+      },
+      {
+        name: "Tailwind",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      },
+    ],
+    livePreview: "https://feedbackhub-frontend.vercel.app/",
+    sourceCode: "https://github.com/MeshachArinze/feedbackhub-frontend",
+    image: "assets/images/airbnb.png",
+  }, 
+  {
+    title: "Spotify Clone",
+    icon: IconBrandAirbnb,
+    niche: "Music Streaming",
+    device: "laptop",
+    description:
+      " Spotify Clone is a music streaming application that allows users to listen to their favorite songs, create playlists, and discover new music. The app features a sleek and modern design, providing an immersive music experience.",
+    technologies: [
+      {
+        name: "TypeScript",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+      },
+      {
+        name: "React.js",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+        style: "bg-black",
+      },
+      {
+        name: "Tailwind",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      },
+    ],
+    livePreview: "https://spotifyclone-git-master-meshacharinze.vercel.app/",
+    sourceCode: "https://github.com/MeshachArinze/ReactOnly/tree/master/spotifyclone",
+    image: "assets/images/airbnb.png",
+  },
+  {
+    title: "FeedbackHub UI",
+    icon: IconBrandAirbnb,
+    niche: "How would you rate your service with us",
+    device: "laptop",
+    description:
+      " Spotify Clone is a music streaming application that allows users to listen to their favorite songs, create playlists, and discover new music. The app features a sleek and modern design, providing an immersive music experience.",
+    technologies: [
+      {
+        name: "TypeScript",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+      },
+      {
+        name: "React.js",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+        style: "bg-black",
+      },
+      {
+        name: "Tailwind",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      },
+    ],
+    livePreview: "https://spotifyclone-git-master-meshacharinze.vercel.app/",
+    sourceCode: "https://github.com/MeshachArinze/ReactOnly/tree/master/spotifyclone",
+    image: "assets/images/airbnb.png",
+  }, 
+  {
+    title: "Payment Gateway",
+    icon: IconBrandAirbnb,
+    niche: "Payment Processing",
+    device: "laptop",
+    description:
+      "A payment gateway is a service that authorizes credit card or direct payments processing for e-businesses, online retailers, bricks and clicks, or traditional brick and mortar. It is the equivalent of a physical point of sale terminal located in most retail outlets.",
+    technologies: [
+      {
+        name: "TypeScript",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+      },
+      {
+        name: "React.js",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+        style: "bg-black",
+      },
+      {
+        name: "Tailwind",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      },
+    ],
+    livePreview: "https://651f1d8c64de0300907a6a31--graceful-empanada-d6ae4c.netlify.app/",
+    sourceCode: "https://github.com/MeshachArinze/ReactOnly/tree/master/spotifyclone",
+    image: "assets/images/airbnb.png",
+  }
 ];
