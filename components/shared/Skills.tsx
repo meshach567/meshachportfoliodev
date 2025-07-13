@@ -43,6 +43,8 @@ function Skills() {
                         className={`w-8 h-8 ${icon.style || ""}`}
                         src={icon.src}
                         alt={icon.name}
+                        width={32}
+                        height={32}
                       />
                       <span className="pl-3">{icon.name}</span>
                     </div>
