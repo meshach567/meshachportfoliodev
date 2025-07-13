@@ -9,6 +9,22 @@ const nextConfig = {
             {
                 protocol: 'https',
                 hostname: 'framerusercontent.com'
+            },
+            {
+                protocol: 'https',
+                hostname: '10billion.org'
+            },
+            {
+                protocol: 'https',
+                hostname: 'zormor.com'
+            },
+            {
+                protocol: 'https',
+                hostname: 'techclaritycoach.com'
+            },
+            {
+                protocol: 'https',
+                hostname: 'img.freepik.com'
             }
         ],
     },
