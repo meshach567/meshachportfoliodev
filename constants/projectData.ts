@@ -9,7 +9,7 @@ import {
   SunIcon,
   QueueListIcon,
 } from "@heroicons/react/24/outline";
-import { title } from "process";
+
 export const projectData = [
   {
     title: "zormor",
@@ -155,7 +155,7 @@ export const projectData = [
     image: "assets/images/airbnb.png",
   },
   {
-     title: "AirBNB",
+     title: "FeedbackHub",
     icon: IconBrandAirbnb,
     niche: "User Feedback Management",
     device: "laptop",
@@ -178,7 +178,7 @@ export const projectData = [
     ],
     livePreview: "https://feedbackhub-frontend.vercel.app/",
     sourceCode: "https://github.com/MeshachArinze/feedbackhub-frontend",
-    image: "assets/images/airbnb.png",
+    image: "assets/images/feedbackhub.png",
   }, 
   {
     title: "Spotify Clone",
@@ -204,7 +204,7 @@ export const projectData = [
     ],
     livePreview: "https://spotifyclone-git-master-meshacharinze.vercel.app/",
     sourceCode: "https://github.com/MeshachArinze/ReactOnly/tree/master/spotifyclone",
-    image: "assets/images/airbnb.png",
+    image: "assets/images/spotifylogin.png",
   },
   {
     title: "FeedbackHub UI",
@@ -230,7 +230,7 @@ export const projectData = [
     ],
     livePreview: "https://spotifyclone-git-master-meshacharinze.vercel.app/",
     sourceCode: "https://github.com/MeshachArinze/ReactOnly/tree/master/spotifyclone",
-    image: "assets/images/airbnb.png",
+    image: "assets/images/spotifylogin.png",
   }, 
   {
     title: "Payment Gateway",
@@ -256,6 +256,6 @@ export const projectData = [
     ],
     livePreview: "https://651f1d8c64de0300907a6a31--graceful-empanada-d6ae4c.netlify.app/",
     sourceCode: "https://github.com/MeshachArinze/ReactOnly/tree/master/spotifyclone",
-    image: "assets/images/airbnb.png",
+    image: "/assets/images/paymentgateway.png",
   }
 ];
