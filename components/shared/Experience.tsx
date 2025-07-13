@@ -2,7 +2,7 @@ import { experiences } from "@/constants/experience";
 import Link from "next/link";
 import { CalendarIcon } from "@radix-ui/react-icons";
 import SlideIn from "./SlideIn";
-import { ArrowTopRightIcon } from "@radix-ui/react-icons";
+import Image from "next/image";
 
 function Experience() {
   return (
@@ -41,7 +41,7 @@ function Experience() {
                           {" "}
                           {exp.company}{" "}
                         </Link>{" "}
-                        <img
+                        <Image
                           alt=""
                           src={exp.location}
                           className="ml-0.5 inline-block h-auto w-5 shrink-0"
