@@ -87,6 +87,8 @@ function Contact() {
                     className="rounded-full w-[30px] h-[30px] mr-3"
                     src="https://img.freepik.com/free-photo/3d-cartoon-character_23-2151021959.jpg?t=st=1744194906~exp=1744198506~hmac=b6ef39eb1100a7b6d674e98ab1d0b03ab66dc25fe47459076857bd94b5c868d2&w=996"
                     alt="icon"
+                    width={30}
+                    height={30}
                   />
                   <h3 className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-yellow-100 group-hover:text-pink-400 transition-colors duration-300">
                     Let&apos;s connect
@@ -141,6 +143,8 @@ function Contact() {
                           src={link.icon}
                           className="h-5 w-5 opacity-80 hover:opacity-100 transition-opacity duration-300"
                           alt={link.title}
+                          width={20}
+                          height={20}
                         />
                       </Link>
                     ))}
