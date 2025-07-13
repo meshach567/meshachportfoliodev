@@ -27,7 +27,7 @@ const Navbar = () => {
           <Link href="mailto:meshacharinze@gmail.com">
             <li className="backdrop-blur-xl bg-white/10 text-white rounded-full px-4 py-2 transition duration-300 ease-in-out hover:bg-white/20 border border-white/20">
               <span className="animate-pulse-ring inline-block bg-green-600 rounded-full w-2 h-2 mr-2"></span>
-              Let's Work
+              Let&apos;s Work
             </li>
           </Link>
         </ul>
