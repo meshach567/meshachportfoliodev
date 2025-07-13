@@ -42,9 +42,11 @@ function Experience() {
                           {exp.company}{" "}
                         </Link>{" "}
                         <Image
-                          alt=""
+                          alt="experience location"
                           src={exp.location}
                           className="ml-0.5 inline-block h-auto w-5 shrink-0"
+                          width={20}
+                          height={20}
                         />
                       </h3>
                     </section>
