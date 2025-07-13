@@ -3,6 +3,8 @@ import {
   IconSchool,
   IconSocial,
   IconBrandAirbnb,
+  IconBrandFacebook, 
+  IconBrandSpotify
 } from "@tabler/icons-react";
 import {
   ShieldCheckIcon,
@@ -52,7 +54,7 @@ export const projectData = [
     ],
     livePreview: "https://zormor.com",
     sourceCode: "https://github.com/zormor",
-    image: "assets/images/zormor.png",
+    image: "/assets/images/zormor.png",
   },
   {
     title: "Summer of Bitcoin",
@@ -152,7 +154,7 @@ export const projectData = [
     ],
     livePreview: "https://airbnbclone-rosy.vercel.app/",
     sourceCode: "https://github.com/meshach567/airbnb-clone",
-    image: "assets/images/airbnb.png",
+    image: "/assets/images/airbnb.png",
   },
   {
      title: "FeedbackHub",
@@ -178,11 +180,11 @@ export const projectData = [
     ],
     livePreview: "https://feedbackhub-frontend.vercel.app/",
     sourceCode: "https://github.com/MeshachArinze/feedbackhub-frontend",
-    image: "assets/images/feedbackhub.png",
+    image: "/assets/images/feedbackhub.png",
   }, 
   {
     title: "Spotify Clone",
-    icon: IconBrandAirbnb,
+    icon: IconBrandSpotify,
     niche: "Music Streaming",
     device: "laptop",
     description:
@@ -204,11 +206,11 @@ export const projectData = [
     ],
     livePreview: "https://spotifyclone-git-master-meshacharinze.vercel.app/",
     sourceCode: "https://github.com/MeshachArinze/ReactOnly/tree/master/spotifyclone",
-    image: "assets/images/spotifylogin.png",
+    image: "/assets/images/spotifylogin.png",
   },
   {
     title: "FeedbackHub UI",
-    icon: IconBrandAirbnb,
+    icon: IconBrandSpotify,
     niche: "How would you rate your service with us",
     device: "laptop",
     description:
@@ -230,7 +232,7 @@ export const projectData = [
     ],
     livePreview: "https://spotifyclone-git-master-meshacharinze.vercel.app/",
     sourceCode: "https://github.com/MeshachArinze/ReactOnly/tree/master/spotifyclone",
-    image: "assets/images/spotifylogin.png",
+    image: "/assets/images/spotifylogin.png",
   }, 
   {
     title: "Payment Gateway",
@@ -256,6 +258,32 @@ export const projectData = [
     ],
     livePreview: "https://651f1d8c64de0300907a6a31--graceful-empanada-d6ae4c.netlify.app/",
     sourceCode: "https://github.com/MeshachArinze/ReactOnly/tree/master/spotifyclone",
-    image: "/assets/images/paymentgateway.png",
+    image: "/assets/images/stripepayment.png",
+  }, 
+  {
+    title: "Market Place",
+    icon: IconBrandFacebook,
+    niche: "Facebook Marketplace",
+    device: "Mobile",
+    description:
+      "Search Marketplace.",
+    technologies: [
+      {
+        name: "TypeScript",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+      },
+      {
+        name: "React.js",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+        style: "bg-black",
+      },
+      {
+        name: "Tailwind",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      },
+    ],
+    livePreview: "https://651f1d8c64de0300907a6a31--graceful-empanada-d6ae4c.netlify.app/",
+    sourceCode: "https://github.com/MeshachArinze/ReactOnly/tree/master/spotifyclone",
+    image: "/assets/images/marketplace.png",
   }
 ];
