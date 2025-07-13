@@ -310,6 +310,6 @@ export const projectData = [
     ],
     livePreview: "https://651f1d8c64de0300907a6a31--graceful-empanada-d6ae4c.netlify.app/",
     sourceCode: "https://github.com/MeshachArinze/ReactOnly/tree/master/spotifyclone",
-    image: "/assets/images/astrowind.png", 
+    image: "/assets/images/astrowind.png/my-app", 
   }
 ];
