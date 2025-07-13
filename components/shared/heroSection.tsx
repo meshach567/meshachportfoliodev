@@ -116,10 +116,12 @@ function HeroSection() {
                       }`}
                     >
                       <Image
-                        src="/Upwork profile image.jpg"
-                        alt="Chinedu Paul"
+                        src="/images/meshach.jpg"
+                        alt="Meshach Arinze"
                         loading="lazy"
-                        className="w-full h-full object-cover cursor-pointer"
+                        width={200}
+                        height={200}
+                        className="w-full h-full object-center object-cover cursor-pointer"
                         onMouseEnter={() => setIsVideoOrImage("isVideo")}
                         onMouseLeave={() => setIsVideoOrImage("isImage")}
                       />
