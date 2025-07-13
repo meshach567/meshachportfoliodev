@@ -4,7 +4,6 @@ import { FloatingDock } from "@/components/ui/floating-dock";
 import {
   GitHubLogoIcon,
   LinkedInLogoIcon,
-  TwitterLogoIcon,
 } from "@radix-ui/react-icons";
 
 export function FloatingDockDemo() {
