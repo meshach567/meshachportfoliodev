@@ -3,6 +3,7 @@ import Link from "next/link";
 import { contactlinks } from "@/constants/contactLinks";
 import { useState, useRef, FormEvent } from "react";
 import emailjs from "@emailjs/browser";
+import Image from "next/image";
 
 function Contact() {
   const [name, setName] = useState("");
@@ -67,7 +68,7 @@ function Contact() {
             Get in Touch
           </h2>
           <p className="text-gray-400 max-w-xl mx-auto">
-            Let's discuss your project or just say hello. I'm always open to new
+            Let&apos;s discuss your project or just say hello. I&apos;m always open to new
             opportunities.
           </p>
         </div>
@@ -82,13 +83,13 @@ function Contact() {
 
               <div className="relative z-10">
                 <div className="flex items-center mb-8">
-                  <img
+                  <Image
                     className="rounded-full w-[30px] h-[30px] mr-3"
                     src="https://img.freepik.com/free-photo/3d-cartoon-character_23-2151021959.jpg?t=st=1744194906~exp=1744198506~hmac=b6ef39eb1100a7b6d674e98ab1d0b03ab66dc25fe47459076857bd94b5c868d2&w=996"
                     alt="icon"
                   />
                   <h3 className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-yellow-100 group-hover:text-pink-400 transition-colors duration-300">
-                    Let's connect
+                    Let&apos;s connect
                   </h3>
                 </div>
 
@@ -136,7 +137,7 @@ function Contact() {
                         className="h-10 w-10 flex items-center justify-center backdrop-blur-sm bg-white/5 rounded-full border border-white/10 hover:bg-white/10 transition-all duration-300"
                         aria-label={link.title}
                       >
-                        <img
+                        <Image
                           src={link.icon}
                           className="h-5 w-5 opacity-80 hover:opacity-100 transition-opacity duration-300"
                           alt={link.title}
