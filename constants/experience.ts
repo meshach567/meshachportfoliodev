@@ -10,7 +10,7 @@ export const experiences = [
     technologies: ["TailwindCss", "React", "TypeScript"],
   },
   {
-    role: "Fullstack Developer intern",
+    role: "Fullstack Developer",
     duration: "May 2024 - Dec 2024",
     // link: "https://clouddley.com/",
     company: "Zormor",
