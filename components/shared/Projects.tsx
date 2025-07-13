@@ -57,7 +57,7 @@ export const Projects = () => {
                     " md:rounded-tr-3xl md:border-t-[1px] md:border-r-[1px] md:border-white/5"
                   }`}
                 >
-                  <img
+                  <Image
                     src={project.image}
                     alt={`${project.title} project screenshot`}
                     className={`object-cover h-[400px] mx-auto ${
@@ -80,7 +80,7 @@ export const Projects = () => {
                   <ul className="pt-11 flex items-center gap-2">
                     {project.technologies.map((tech, techIndex) => (
                       <li key={techIndex}>
-                        <img
+                        <Image
                           className={`mr-4 w-7 h-7 ${tech.style || ""}`}
                           src={tech.icon}
                           alt={`${tech.name} logo`}
