@@ -31,7 +31,9 @@ export const Projects = () => {
           {projectData.map((project, index) => (
             <div
               key={index}
-              className={`card project-card project-card-${index + 1} pb-20 md:pb-0 border border-white/10 md:max-w-4xl lg:max-w-6xl mx-auto bg-white/5 backdrop-blur-md rounded-3xl my-14 cursor-pointer hover:shadow-[0_0px_20px_0_rgba(255,255,255,0.05)] transition-all duration-300`}
+              className={`card project-card project-card-${
+                index + 1
+              } pb-20 md:pb-0 border border-white/10 md:max-w-4xl lg:max-w-6xl mx-auto bg-white/5 backdrop-blur-md rounded-3xl my-14 cursor-pointer hover:shadow-[0_0px_20px_0_rgba(255,255,255,0.05)] transition-all duration-300`}
             >
               {/* TOP SECTION */}
               <section className="pl-6 py-9 flex items-center justify-between border-b border-white/5">
@@ -64,6 +66,8 @@ export const Projects = () => {
                       project.device === "laptop" &&
                       "sm:w-full sm:object-center md:object-left md:border-t-[16px] md:border-r-[16px] md:border-neutral-950 md:rounded-tr-3xl md:rounded-bl-3xl"
                     } `}
+                    width={800}
+                    height={400}
                   />
                 </div>
                 <div className="col-span-12 md:col-span-6 lg:col-span-6 pl-6 md:pl-4 pr-8 pt-11 text-left">
@@ -84,6 +88,8 @@ export const Projects = () => {
                           className={`mr-4 w-7 h-7 ${tech.style || ""}`}
                           src={tech.icon}
                           alt={`${tech.name} logo`}
+                          width={28}
+                          height={28}
                         />
                       </li>
                     ))}
