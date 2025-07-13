@@ -285,5 +285,31 @@ export const projectData = [
     livePreview: "https://651f1d8c64de0300907a6a31--graceful-empanada-d6ae4c.netlify.app/",
     sourceCode: "https://github.com/MeshachArinze/ReactOnly/tree/master/spotifyclone",
     image: "/assets/images/marketplace.png",
+  },
+  {
+   title: "Astrowind",
+    icon: IconBrandFacebook,
+    niche: "Portfolio Website",
+    device: "Mobile",
+    description:
+      "Portfolio website.",
+    technologies: [
+      {
+        name: "TypeScript",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+      },
+      {
+        name: "React.js",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+        style: "bg-black",
+      },
+      {
+        name: "Tailwind",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      },
+    ],
+    livePreview: "https://651f1d8c64de0300907a6a31--graceful-empanada-d6ae4c.netlify.app/",
+    sourceCode: "https://github.com/MeshachArinze/ReactOnly/tree/master/spotifyclone",
+    image: "/assets/images/astrowind.png", 
   }
 ];
