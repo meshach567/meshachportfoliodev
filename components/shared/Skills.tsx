@@ -1,5 +1,6 @@
 import { stackIcons } from "@/constants/stackIcons";
 import SlideIn from "./SlideIn";
+import Image from "next/image";
 
 function Skills() {
   return (
@@ -38,7 +39,7 @@ function Skills() {
                       key={index}
                       className="flex items-center py-2 px-3 text-sm font-medium rounded-xl hover:bg-white/10 transition-all duration-300"
                     >
-                      <img
+                      <Image
                         className={`w-8 h-8 ${icon.style || ""}`}
                         src={icon.src}
                         alt={icon.name}
@@ -105,7 +106,7 @@ function Skills() {
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-500 to-purple-600 font-medium">
                     coding
                   </span>{" "}
-                  is more than just a job—it's an opportunity to innovate and
+                  is more than just a job—it&apos;s an opportunity to innovate and
                   express creativity, leaving a lasting impact on both the tech
                   world and the people I mentor.
                 </p>
