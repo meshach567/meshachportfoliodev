@@ -68,6 +68,8 @@ export const Projects = () => {
                     } `}
                     width={800}
                     height={400}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 800px"
+                    loading="lazy"
                   />
                 </div>
                 <div className="col-span-12 md:col-span-6 lg:col-span-6 pl-6 md:pl-4 pr-8 pt-11 text-left">
@@ -90,6 +92,7 @@ export const Projects = () => {
                           alt={`${tech.name} logo`}
                           width={28}
                           height={28}
+                          loading="lazy"
                         />
                       </li>
                     ))}
