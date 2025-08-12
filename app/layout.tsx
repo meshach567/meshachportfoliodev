@@ -51,7 +51,7 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body className={cn("bg-neutral-950 text-gray-200 antialiased", inter.variable)}>
+      <body suppressHydrationWarning className={cn("bg-neutral-950 text-gray-200 antialiased", inter.variable)}>
         {children}
       </body>
     </html>
