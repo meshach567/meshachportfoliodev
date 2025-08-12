@@ -6,7 +6,7 @@ import Image from "next/image";
 
 function Experience() {
   return (
-    <section className="px-4 lg:px-8 py-10  cursor-pointer experience-container relative">
+    <section id="experience" className="px-4 lg:px-8 py-10  cursor-pointer experience-container relative">
       {/* Ambient gradient background */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <div className="animate-pulse absolute top-20 left-1/4 w-96 h-96 bg-indigo-500 rounded-full filter blur-3xl opacity-10"></div>
