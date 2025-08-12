@@ -3,27 +3,20 @@
 import { useState } from "react";
 import SlideIn from "./SlideIn";
 import Image from "next/image";
+import Link from "next/link";
 
 function HeroSection() {
   const [isVideoOrImage, setIsVideoOrImage] = useState<"isVideo" | "isImage">(
     "isImage"
   );
 
-  // useEffect(() => {
-  //   const timeSwap = setInterval(() => {
-  //     setIsVideoOrImage((prev) => (prev === "isImage" ? "isImage" : "isImage"));
-  //   }, 6000);
-
-  //   return () => clearInterval(timeSwap);
-  // }, [isVideoOrImage]);
-
   return (
     <SlideIn>
       <section className="relative min-h-screen overflow-hidden bg-gradient-to-br from-gray-950 to-black">
         {/* Subtle Gradient Orbs */}
         <div className="absolute inset-0 overflow-hidden">
-          <div className="animate-pulse absolute top-1/4 left-1/4 w-64 md:w-96 h-64 md:h-96 rounded-full bg-indigo-500/10 blur-3xl"></div>
-          <div className="animate-pulse absolute bottom-1/4 right-1/4 w-64 md:w-96 h-64 md:h-96 rounded-full bg-purple-500/10 blur-3xl"></div>
+          <div className="absolute top-1/4 left-1/4 w-64 md:w-96 h-64 md:h-96 rounded-full bg-indigo-500/10 blur-3xl" />
+          <div className="absolute bottom-1/4 right-1/4 w-64 md:w-96 h-64 md:h-96 rounded-full bg-purple-500/10 blur-3xl" />
         </div>
 
         {/* Main Content */}
@@ -35,53 +28,34 @@ function HeroSection() {
                 <div className="flex items-center">
                   <span className="inline-block bg-green-500 rounded-full w-1.5 sm:w-2 h-1.5 sm:h-2 mr-2 animate-pulse" />
                   <span className="text-gray-300 text-xs sm:text-sm font-light">
-                    Let me transform your ideas into reality. I&apos;m available for Remote, Open Source, Hackathon and collaborations.
+                    Im available for Remote, Open Source, Hackathons and collaborations.
                   </span>
                 </div>
               </div>
 
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-4 md:mb-6 lg:mb-8">
-                <span className="animate-pulse bg-gradient-to-r from-white/90 to-white/70 bg-clip-text text-transparent backdrop-blur-sm">
-                  Meshach {" "}
-                </span>
+                <span className="bg-gradient-to-r from-white/90 to-white/70 bg-clip-text text-transparent">
+                  Meshach
+                </span>{" "}
                 <span className="bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent">
                   Arinze
                 </span>
               </h1>
 
-              <p className="text-gray-300 text-sm sm:text-base md:text-[15px] mb-6 md:mb-8 lg:mb-12 max-w-2xl leading-relaxed">
-                I&apos;m Meshach, a seasoned{" "}
-                <span className="bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent font-medium">
-                  Fullstack TypeScript Developer
-                </span>{" "}
-                with expertise in
-                <span className="bg-gradient-to-r from-blue-300 to-cyan-300 bg-clip-text text-transparent font-medium">
-                  {" "}
-                  React.js, React Native, Next.js, Node.js, Python and Wordpress for Traditional Headless CMS
-                </span>
-                . I help startups and growing businesses build fast, scalable,
-                and production-ready web applications.{" "}
-                <br className="hidden sm:block" />
-                <br className="hidden sm:block" />
-                With a focus on{" "}
-                <span className="bg-gradient-to-r from-emerald-300 to-teal-300 bg-clip-text text-transparent font-medium">
-                  clean code, intuitive UI/UX, and scalable architecture
-                </span>
-                , I deliver secure, efficient solutions that drive performance
-                and growth.
-                <br className="hidden sm:block" />
-                <br className="hidden sm:block" />
-                Let&apos;s create a{" "}
-                <span className="bg-gradient-to-r from-rose-300 to-pink-300 bg-clip-text text-transparent font-medium">
-                  powerful, high-performance Product app
-                </span>{" "}
-                tailored to your business needs. Contact me to get started.
+              <p className="text-gray-300 text-sm sm:text-base md:text-[15px] mb-6 md:mb-8 lg:mb-10 max-w-2xl leading-relaxed">
+                Im a seasoned <span className="bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent font-medium">Fullstack TypeScript Developer</span> with expertise in
+                <span className="bg-gradient-to-r from-blue-300 to-cyan-300 bg-clip-text text-transparent font-medium"> React.js, React Native, Next.js, Node.js, Python</span> and
+                <span className="bg-gradient-to-r from-rose-300 to-pink-300 bg-clip-text text-transparent font-medium"> Headless CMS</span>. I help startups build fast, scalable, production-ready applications.
               </p>
 
-              {/* Uncomment when needed */}
-              {/* <div className="mt-6 md:mt-8 lg:mt-12 flex items-center justify-start w-full">
-                <FloatingDockDemo />
-              </div> */}
+              <div className="flex items-center gap-3">
+                <Link href="#projects" className="inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm font-medium bg-white text-black hover:bg-white/90 border border-white/10 transition">
+                  View Projects
+                </Link>
+                <Link href="#contact" className="inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm font-medium bg-white/10 text-white hover:bg-white/20 border border-white/10 transition">
+                  Contact Me
+                </Link>
+              </div>
             </div>
 
             {/* Media Section */}
@@ -89,49 +63,21 @@ function HeroSection() {
               <div className="relative rounded-xl sm:rounded-2xl overflow-hidden w-full max-w-md md:max-w-2xl backdrop-blur-md bg-white/5 border border-white/10 shadow-xl">
                 <div className="aspect-[4/3] relative">
                   {isVideoOrImage === "isVideo" ? (
-                    <div
-                      className={`absolute inset-0 transition-opacity duration-500 ease-in-out ${
-                        isVideoOrImage === "isVideo"
-                          ? "opacity-100"
-                          : "opacity-0"
-                      }`}
-                    >
-                        {/* <iframe
-                          src="https://www.youtube.com/embed/NnuVAiKOoa0?autoplay=1&mute=1&loop=1&playlist=NnuVAiKOoa0&controls=0"
-                          title="YouTube video player"
-                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowFullScreen
-                          className="absolute inset-0 w-full h-full"
-                          onMouseEnter={() => setIsVideoOrImage("isImage")}
-                          onMouseLeave={() => setIsVideoOrImage("isVideo")}
-                        /> */}
-                      </div>
-                
+                    <div className={`absolute inset-0 transition-opacity duration-500 ease-in-out ${isVideoOrImage === "isVideo" ? "opacity-100" : "opacity-0"}`}></div>
                   ) : (
-                    <div
-                      className={`absolute inset-0 transition-opacity duration-500 ease-in-out ${
-                        isVideoOrImage === "isImage"
-                          ? "opacity-100"
-                          : "opacity-0"
-                      }`}
-                    >
+                    <div className={`absolute inset-0 transition-opacity duration-500 ease-in-out ${isVideoOrImage === "isImage" ? "opacity-100" : "opacity-0"}`}>
                       <Image
-                        src="/images/meshach.jpg"
+                        src="/assets/images/meshach.jpg"
                         alt="Meshach Arinze"
                         loading="lazy"
-                        width={200}
-                        height={200}
+                        width={1200}
+                        height={900}
                         className="w-full h-full object-center object-cover cursor-pointer"
                         onMouseEnter={() => setIsVideoOrImage("isVideo")}
                         onMouseLeave={() => setIsVideoOrImage("isImage")}
                       />
                     </div>
                   )}
-
-                  {/* Optional: Show current mode */}
-                  {/* <div className="absolute top-2 right-2 px-2 py-1 text-white bg-black/50 rounded text-xs">
-                    {isVideoOrImage}
-                  </div> */}
                 </div>
 
                 <div className="absolute bottom-0 left-0 right-0 backdrop-blur-sm bg-black/20 px-4 sm:px-6 py-3 sm:py-5">
