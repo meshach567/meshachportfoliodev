@@ -7,6 +7,20 @@
   .hero-ring {
     @apply absolute inset-0 border-2 left-1/2 -translate-y-1/2 rounded-full border-neutral-950/5 shadow-[0_0_30px_inset] shadow-pink-400/5;
   }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    @apply bg-pink-500/30 text-white;
+  }
 }
 
 
