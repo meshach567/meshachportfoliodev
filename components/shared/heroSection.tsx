@@ -67,6 +67,16 @@ function HeroSection() {
                   {" "}
                   SQL and NoSQL Databse I have used are PostgreSQL, MongoDB, Neon, Firebase, Supabase, and Appwrite. {" "}
                 </span>
+                <span className="bg-gradient-to-r from-rose-300 to-pink-300 bg-clip-text text-transparent font-medium">
+                  {" "}
+                  I have experience with cloud platforms like AWS, Vercel, and Netlify.{" "}
+                  {" "}
+                </span>
+                <span className="bg-gradient-to-r from-blue-300 to-cyan-300 bg-clip-text text-transparent font-medium">
+                  {" "}
+                  I have basic knowledge of Blockchain and Smart Contract development using Solidity, Hardhat, and Ethers.js.{" "}
+                   {" "}
+                </span>
                 <span className="bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent font-medium">
                   I help startups build fast, scalable, production-ready
                   applications.
