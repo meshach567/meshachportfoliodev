@@ -62,7 +62,7 @@ export const Projects = () => {
                   <Image
                     src={project.image}
                     alt={`${project.title} project screenshot`}
-                    className={`object-cover h-[400px] mx-auto ${
+                    className={`object-cover h-[400px] w-auto mx-auto ${
                       project.device === "laptop" &&
                       "sm:w-full sm:object-center md:object-left md:border-t-[16px] md:border-r-[16px] md:border-neutral-950 md:rounded-tr-3xl md:rounded-bl-3xl"
                     } `}
