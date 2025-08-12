@@ -1,19 +1,28 @@
 // Define the navigation items
 export const navigationOnLargeScreen = [
-  { name: "Projects", href: "#projects" },
-  { name: "About", href: "#about" },
+  { name: "Home", href: "/" },
+  { name: "Projects", href: "/#projects" },
+  { name: "Skills", href: "/#skills" },
+  { name: "Experience", href: "/#experience" },
+  { name: "About", href: "/about" },
+  { name: "Services", href: "/services" },
   {
     name: "Resume",
     href: "",
   },
-  { name: "Contact", href: "#contact" },
+  { name: "Contact", href: "/#contact" },
 ];
 
 export const navigationOnMobile = [
-  { name: "Projects", href: "#projects" },
+  { name: "Home", href: "/" },
+  { name: "Projects", href: "/#projects" },
+  { name: "Skills", href: "/#skills" },
+  { name: "Experience", href: "/#experience" },
+  { name: "About", href: "/about" },
+  { name: "Services", href: "/services" },
   {
     name: "Resume",
     href: "",
   },
-  { name: "Contact", href: "#contact" },
+  { name: "Contact", href: "/#contact" },
 ];
