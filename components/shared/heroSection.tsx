@@ -28,7 +28,7 @@ function HeroSection() {
                 <div className="flex items-center">
                   <span className="inline-block bg-green-500 rounded-full w-1.5 sm:w-2 h-1.5 sm:h-2 mr-2 animate-pulse" />
                   <span className="text-gray-300 text-xs sm:text-sm font-light">
-                    I'm available for Remote, Open Source, Hackathons and
+                    I&apos;m available for Remote, Open Source, Hackathons and
                     collaborations.
                   </span>
                 </div>
@@ -45,7 +45,7 @@ function HeroSection() {
 
               <div className="text-gray-300 text-sm sm:text-base md:text-[15px] mb-6 md:mb-8 lg:mb-10 max-w-2xl leading-relaxed">
                 <span className="bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent font-medium">
-                  I'm a Fullstack Developer.  {" "}
+                  I&apos;m a Fullstack Developer.  {" "}
                 </span>
                 <span className="bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent font-medium">
                   Programming language am comfortable with are JavaScript,
