@@ -6,7 +6,7 @@ function Skills() {
   return (
     <div
       className="skills-container px-4 lg:px-8 my-20 overflow-hidden relative"
-      id="about"
+      id="skills"
     >
       {/* Gradient background with blur */}
       <div className="absolute inset-0 -z-10">
