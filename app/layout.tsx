@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
+import { Inter } from "next/font/google";
+import { cn } from "@/lib/utils";
+
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
   title: "Meshach Arinze | Portfolio",
@@ -23,8 +27,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={inter.variable}>
       <head>
+        {/* Preconnects */}
+        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
+        <link rel="preconnect" href="https://img.freepik.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://img.freepik.com" />
+        <link rel="preconnect" href="https://framerusercontent.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://framerusercontent.com" />
+
         {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-DJZ8CKLRYG"
@@ -39,7 +51,9 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body className="bg-neutral-950">{children}</body>
+      <body className={cn("bg-neutral-950 text-gray-200 antialiased", inter.variable)}>
+        {children}
+      </body>
     </html>
   );
 }
