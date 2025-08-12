@@ -45,11 +45,11 @@ function HeroSection() {
 
               <div className="text-gray-300 text-sm sm:text-base md:text-[15px] mb-6 md:mb-8 lg:mb-10 max-w-2xl leading-relaxed">
                 <span className="bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent font-medium">
-                  I'm a Fullstack Developer
+                  I'm a Fullstack Developer.  {" "}
                 </span>
                 <span className="bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent font-medium">
-                  Programming language am comfortable with are JavaScript and
-                  TypeScript{" "}
+                  Programming language am comfortable with are JavaScript,
+                  TypeScript and Python. {" "}
                 </span>
                 <span className="bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent font-medium">
                   I am currently writing Rust for Blockchain and learning how
@@ -57,15 +57,16 @@ function HeroSection() {
                 </span>
                 <span className="bg-gradient-to-r from-blue-300 to-cyan-300 bg-clip-text text-transparent font-medium">
                   {" "}
-                  My tech stack is React.js, React Native, Next.js, Express.js,
-                  Nest.js, FastAPI, and Headless CMS with WordPres
+                  My tech stack is React.js, React Native, Expo, Next.js, Express.js,
+                  Nest.js, and FastAPI.
                 </span>{" "}
-                and
+                <span className="bg-gradient-to-r from-blue-300 to-cyan-300 bg-clip-text text-transparent font-medium">
+                Headless CMS am more comfortable with are WordPres, Strapi, Sanity, and Contentful. {" "}
+                </span>
                 <span className="bg-gradient-to-r from-rose-300 to-pink-300 bg-clip-text text-transparent font-medium">
                   {" "}
-                  SQL and NoSQL Databse I have used are PostgreSQL, MongoDB, Neon, Firebase, Supabase, Appwrite {" "}
+                  SQL and NoSQL Databse I have used are PostgreSQL, MongoDB, Neon, Firebase, Supabase, and Appwrite. {" "}
                 </span>
-                .
                 <span className="bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent font-medium">
                   I help startups build fast, scalable, production-ready
                   applications.
@@ -125,7 +126,7 @@ function HeroSection() {
                 <div className="absolute bottom-0 left-0 right-0 backdrop-blur-sm bg-black/20 px-4 sm:px-6 py-3 sm:py-5">
                   <p className="bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent font-medium text-base sm:text-lg">
                     Full Stack Developer | Product Engineer | UI Engineer |
-                    Mobile Developer
+                    Mobile App Developer | Blockchain Enthutiast
                   </p>
                   <div className="flex items-center mt-1 sm:mt-2">
                     <div className="w-1 h-1 rounded-full bg-gray-400 mr-2" />
