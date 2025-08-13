@@ -1,7 +1,7 @@
 // Define the navigation items
 export const navigationOnLargeScreen = [
   { name: "Home", href: "/" },
-  { name: "Projects", href: "/#projects" },
+  { name: "Projects", href: "/projects" },
   { name: "Skills", href: "/#skills" },
   { name: "Experience", href: "/#experience" },
   { name: "About", href: "/about" },
@@ -15,7 +15,7 @@ export const navigationOnLargeScreen = [
 
 export const navigationOnMobile = [
   { name: "Home", href: "/" },
-  { name: "Projects", href: "/#projects" },
+  { name: "Projects", href: "/projects" },
   { name: "Skills", href: "/#skills" },
   { name: "Experience", href: "/#experience" },
   { name: "About", href: "/about" },
