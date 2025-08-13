@@ -120,7 +120,7 @@ function HeroSection() {
                       }`}
                     >
                       <Image
-                        src="/assets/images/meshach.jpg"
+                        src="/assets/images/ekene.jpg"
                         alt="Meshach Arinze"
                         loading="lazy"
                         width={1200}
