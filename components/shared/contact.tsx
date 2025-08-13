@@ -102,7 +102,7 @@ function Contact() {
                   </p>
 
                   <Link
-                    href="mailto:Olinyacpaul7849@gmail.com"
+                    href="mailto:meshacharinze@gmail.com"
                     className="inline-flex items-center group"
                   >
                     <span className="text-xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-yellow-100 group-hover:text-pink-400 transition-colors duration-300">
