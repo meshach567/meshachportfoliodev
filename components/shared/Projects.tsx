@@ -5,8 +5,24 @@ import React from "react";
 import SlideIn from "./SlideIn";
 import { projectData } from "@/constants/projectData";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
+import { AnimatePresence, motion } from "framer-motion";
 
 export const Projects = () => {
+  const [activeTab, setActiveTab] = React.useState<string>("web");
+  const tabs: { key: string; label: string }[] = [
+    { key: "all", label: "All" },
+    { key: "web", label: "Web" },
+    { key: "mobile", label: "Mobile" },
+    { key: "web3", label: "Web3" },
+    { key: "open-source", label: "Open Source" },
+    { key: "cloud", label: "Cloud" },
+  ];
+
+  const filtered = React.useMemo(() => {
+    if (activeTab === "all") return projectData;
+    return projectData.filter((p) => p.category === activeTab);
+  }, [activeTab]);
+
   return (
     <SlideIn direction="bottom">
       <div className="font-sans relative z-10 mt-10 " id="projects">
@@ -25,15 +41,53 @@ export const Projects = () => {
             exceptionally well. My projects are a testament to my dedication to
             quality and my passion for web development.
           </p>
+
+          {/* Certificates placeholder */}
+          <div className="mt-8">
+            <h3 className="text-white font-semibold mb-3">Certificates</h3>
+            <div className="flex flex-wrap items-center justify-center gap-3 text-sm">
+              <span className="px-3 py-1 rounded-full border border-white/10 bg-white/5 text-gray-300">Coming soon</span>
+            </div>
+          </div>
         </div>
 
-        <div className="card-container px-4 lg:px-8">
-          {projectData.map((project, index) => (
+        {/* Tabs */}
+        <div className="flex flex-wrap items-center justify-center mb-8 gap-2 px-4">
+          {tabs.map((t) => (
+            <button
+              key={t.key}
+              onClick={() => setActiveTab(t.key)}
+              className={`relative px-3 py-1.5 rounded-full border text-sm transition ${
+                activeTab === t.key ? "text-white" : "text-gray-300 hover:bg-white/10"
+              }`}
+            >
+              {activeTab === t.key && (
+                <motion.span
+                  layoutId="tabActive"
+                  className="absolute inset-0 rounded-full bg-white/10 border border-white/30"
+                  transition={{ type: "spring", stiffness: 500, damping: 40, mass: 1 }}
+                />
+              )}
+              <span className="relative z-10">{t.label}</span>
+            </button>
+          ))}
+        </div>
+
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={activeTab}
+            initial={{ opacity: 0, y: 8 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -8 }}
+            transition={{ duration: 0.25, ease: "easeOut" }}
+            className="mx-auto max-w-7xl grid grid-cols-12 gap-6 px-4 lg:px-8"
+          >
+          {filtered.map((project, index) => (
             <div
-              key={index}
-              className={`card project-card project-card-${
+              key={project.title}
+              className={`col-span-12 md:col-span-6 lg:col-span-4 card project-card project-card-${
                 index + 1
-              } pb-20 md:pb-0 border border-white/10 md:max-w-4xl lg:max-w-6xl mx-auto bg-white/5 backdrop-blur-md rounded-3xl my-14 cursor-pointer hover:shadow-[0_0px_20px_0_rgba(255,255,255,0.05)] transition-all duration-300`}
+              } border border-white/10 bg-white/5 backdrop-blur-md rounded-3xl overflow-hidden hover:shadow-[0_0px_20px_0_rgba(255,255,255,0.05)] transition-all duration-300`}
             >
               {/* TOP SECTION */}
               <section className="pl-6 py-9 flex items-center justify-between border-b border-white/5">
@@ -54,27 +108,27 @@ export const Projects = () => {
               {/* GRID SECTION */}
               <section className="grid grid-cols-12 gap-4">
                 <div
-                  className={`col-span-12 md:col-span-6 lg:col-span-6 ${
+                  className={`col-span-12 xl:col-span-6 ${
                     project.device === "laptop" &&
-                    " md:rounded-tr-3xl md:border-t-[1px] md:border-r-[1px] md:border-white/5"
+                    " xl:rounded-tr-3xl xl:border-t-[1px] xl:border-r-[1px] xl:border-white/5"
                   }`}
                 >
                   <Image
                     src={project.image}
                     alt={`${project.title} project screenshot`}
-                    className={`object-cover h-[400px] w-auto mx-auto ${
+                    className={`object-cover h-40 sm:h-56 md:h-56 lg:h-64 xl:h-[400px] w-auto mx-auto ${
                       project.device === "laptop" &&
-                      "sm:w-full sm:object-center md:object-left md:border-t-[16px] md:border-r-[16px] md:border-neutral-950 md:rounded-tr-3xl md:rounded-bl-3xl"
-                    } `}
+                      "sm:w-full sm:object-center xl:object-left xl:border-t-[16px] xl:border-r-[16px] xl:border-neutral-950 xl:rounded-tr-3xl xl:rounded-bl-3xl"
+                    }`}
                     width={800}
                     height={400}
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 800px"
                     loading="lazy"
                   />
                 </div>
-                <div className="col-span-12 md:col-span-6 lg:col-span-6 pl-6 md:pl-4 pr-8 pt-11 text-left">
+                <div className="col-span-12 xl:col-span-6 px-6 pt-6 text-left">
                   {/* HEADER SECTION */}
-                  <h1 className="text-gray-200 text-3xl mb-1 font-medium flex items-center gap-2">
+                  <h1 className="text-gray-200 text-2xl md:text-3xl mb-1 font-medium flex items-center gap-2">
                     {project.title}
                     <project.icon className="p-2 rounded-full h-10 w-10 bg-white/5 backdrop-blur-sm" />{" "}
                   </h1>
@@ -99,7 +153,7 @@ export const Projects = () => {
                   </ul>
 
                   {/* LIVE PREVIEW LINK */}
-                  <section className="pt-11">
+                  <section className="pt-6 md:pt-8">
                     <Link
                       href={project.livePreview}
                       target="_blank"
@@ -114,7 +168,8 @@ export const Projects = () => {
               </section>
             </div>
           ))}
-        </div>
+          </motion.div>
+        </AnimatePresence>
 
         {/* Very subtle decorative elements */}
         <div className="absolute top-1/3 right-1/4 w-96 h-96 bg-white/5 rounded-full filter blur-3xl -z-10"></div>
