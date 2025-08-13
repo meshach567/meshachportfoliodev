@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="px-4 lg:px-8 py-16 my-6">
+    <section className="px-4 lg:px-8 py-16 mt-6">
       <div className="md:max-w-4xl mx-auto lg:max-w-6xl">
         <SlideIn direction="top">
           <h1 className="text-4xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500">
