@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="px-4 lg:px-8 py-16">
+    <section className="px-4 lg:px-8 py-16 my-6">
       <div className="md:max-w-4xl mx-auto lg:max-w-6xl">
         <SlideIn direction="top">
           <h1 className="text-4xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500">
@@ -18,7 +18,7 @@ export default function About() {
             <SlideIn direction="left">
               <div className="rounded-2xl overflow-hidden border border-white/10 bg-white/5 backdrop-blur-md shadow-xl">
                 <Image
-                  src="/assets/images/meshach.jpg"
+                  src="/assets/images/big.jpg"
                   alt="Meshach Arinze"
                   width={900}
                   height={1200}
