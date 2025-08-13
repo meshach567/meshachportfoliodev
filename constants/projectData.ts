@@ -18,6 +18,7 @@ export const projectData = [
     icon: SunIcon,
     niche: "Hospitality and Tourism",
     device: "laptop",
+    category: "web",
     description:
       " A sleek and aesthetically designed e-commerce app featuring a vast array of products across multiple categories. The app boasts a user-friendly interface, intuitive navigation, and seamless shopping experience.",
     technologies: [
@@ -61,6 +62,7 @@ export const projectData = [
     icon: ShieldCheckIcon,
     device: "laptop",
     niche: "Blockchain and Crypto",
+    category: "web",
     description:
       "A cutting-edge real estate platform where users can effortlessly search and rent houses or properties. Prestige Horizons offers a seamless and intuitive experience, connecting buyers and renters with their dream properties.",
     technologies: [
@@ -92,6 +94,7 @@ export const projectData = [
     icon: QueueListIcon,
     device: "laptop",
     niche: "SOCIAL MEDIA APP",
+    category: "web",
     description:
       "Built a social media platform inspired by X, where users can share posts, connect with others, and engage in meaningful conversations. Developed using the MERN stack (MongoDB, Express.js, React.js, Node.js), this project showcases my skills in full-stack development, API design, and responsive web development.",
     technologies: [
@@ -131,6 +134,7 @@ export const projectData = [
     icon: IconBrandAirbnb,
     niche: "Hospitality and Tourism",
     device: "laptop",
+    category: "web",
     description:
       "A sleek and aesthetically designed e-commerce app featuring a vast array of products across multiple categories. The app boasts a user-friendly interface, intuitive navigation, and seamless shopping experience.",
     technologies: [
@@ -161,6 +165,7 @@ export const projectData = [
     icon: IconBrandAirbnb,
     niche: "User Feedback Management",
     device: "laptop",
+    category: "web",
     description:
       "FeedbackHub is an innovative customer feedback management software designed to serve as a central hub for businesses of all sizes to efficiently gather, analyze, and manage customer feedback.",
     technologies: [
@@ -187,6 +192,7 @@ export const projectData = [
     icon: IconBrandSpotify,
     niche: "Music Streaming",
     device: "laptop",
+    category: "web",
     description:
       " Spotify Clone is a music streaming application that allows users to listen to their favorite songs, create playlists, and discover new music. The app features a sleek and modern design, providing an immersive music experience.",
     technologies: [
@@ -213,6 +219,7 @@ export const projectData = [
     icon: IconBrandSpotify,
     niche: "How would you rate your service with us",
     device: "laptop",
+    category: "web",
     description:
       " Spotify Clone is a music streaming application that allows users to listen to their favorite songs, create playlists, and discover new music. The app features a sleek and modern design, providing an immersive music experience.",
     technologies: [
@@ -239,6 +246,7 @@ export const projectData = [
     icon: IconBrandAirbnb,
     niche: "Payment Processing",
     device: "laptop",
+    category: "web",
     description:
       "A payment gateway is a service that authorizes credit card or direct payments processing for e-businesses, online retailers, bricks and clicks, or traditional brick and mortar. It is the equivalent of a physical point of sale terminal located in most retail outlets.",
     technologies: [
@@ -265,6 +273,7 @@ export const projectData = [
     icon: IconBrandFacebook,
     niche: "Facebook Marketplace",
     device: "Mobile",
+    category: "web",
     description:
       "Search Marketplace.",
     technologies: [
@@ -291,6 +300,7 @@ export const projectData = [
     icon: IconBrandFacebook,
     niche: "Portfolio Website",
     device: "Mobile",
+    category: "web",
     description:
       "Portfolio website.",
     technologies: [
@@ -310,13 +320,14 @@ export const projectData = [
     ],
     livePreview: "https://651f1d8c64de0300907a6a31--graceful-empanada-d6ae4c.netlify.app/",
     sourceCode: "https://github.com/MeshachArinze/ReactOnly/tree/master/spotifyclone",
-    image: "/assets/images/astrowind.png/my-app", 
+    image: "/assets/images/astroportfoli.png", 
   },
   {
     title: "storage app",
     icon: IconBrandFacebook,
     niche: "Storage App",
     device: "Mobile",
+    category: "web",
     description:
       "Storage Management.",
     technologies: [
