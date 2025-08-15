@@ -36,7 +36,7 @@ function HeroSection() {
 
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-4 md:mb-6 lg:mb-8">
                 <span className="bg-gradient-to-r from-white/90 to-white/70 bg-clip-text text-transparent">
-                  Meshach
+                  Hi, my name is Meshach
                 </span>{" "}
                 <span className="bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent">
                   Arinze
@@ -45,27 +45,34 @@ function HeroSection() {
 
               <div className="text-gray-300 text-sm sm:text-base md:text-[15px] mb-6 md:mb-8 lg:mb-10 max-w-2xl leading-relaxed">
                 <span className="bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent font-medium">
-                  I&apos;m a Fullstack Developer.  {" "}
+                  Over the past few years in tech, I have worked in role that fit both Frontend, Backend, and Mobile development.{" "}
                 </span>
                 <span className="bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent font-medium">
-                  Programming language am comfortable with are JavaScript,
+                  I have built project with programming language like JavaScript,
                   TypeScript and Python. {" "}
                 </span>
                 <span className="bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent font-medium">
-                  I am currently writing Rust for Blockchain and learning how
-                  Bitcoin is been develop
+                  Currently, I am writing Rust for Blockchain and learning how
+                  Bitcoin is been develop.
+                </span>
+                <span className="bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent font-medium">
+                  I am delving into AI and Machine Learning, exploring how
+                  these technologies can enhance user experiences and
+                  application performance.
                 </span>
                 <span className="bg-gradient-to-r from-blue-300 to-cyan-300 bg-clip-text text-transparent font-medium">
-                  {" "}
-                  My tech stack is React.js, React Native, Expo, Next.js, Express.js,
-                  Nest.js, and FastAPI.
+                  I have experience in building web applications using
+                  frameworks like React.js, Next.js, Express.js, Nest.js, and FastAPI.{" "}
+                </span>
+                <span className="bg-gradient-to-r from-blue-300 to-cyan-300 bg-clip-text text-transparent font-medium">
+                  I have worked on mobile applications using React Native and Expo.
                 </span>{" "}
                 <span className="bg-gradient-to-r from-blue-300 to-cyan-300 bg-clip-text text-transparent font-medium">
-                Headless CMS am more comfortable with are WordPres, Strapi, Sanity, and Contentful. {" "}
+                While working on frontend project, I have make used of Headless CMS like WordPress, Strapi, Sanity, and Contentful. to build blogs. {" "}
                 </span>
                 <span className="bg-gradient-to-r from-rose-300 to-pink-300 bg-clip-text text-transparent font-medium">
                   {" "}
-                  SQL and NoSQL Databse I have used are PostgreSQL, MongoDB, Neon, Firebase, Supabase, and Appwrite. {" "}
+                  Also, I am very familiar with SQL and NoSQL Database like PostgreSQL, MongoDB, Neon, Firebase, Supabase, and Appwrite. {" "}
                 </span>
                 <span className="bg-gradient-to-r from-rose-300 to-pink-300 bg-clip-text text-transparent font-medium">
                   {" "}
