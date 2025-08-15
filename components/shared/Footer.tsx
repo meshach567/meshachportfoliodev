@@ -38,7 +38,7 @@ export default function Footer() {
             ))}
             <li>
               <Link className="hover:text-white transition" href="mailto:meshacharinze@gmail.com">
-                meshacharinze@gmail.com
+                Email
               </Link>
             </li>
           </ul>
