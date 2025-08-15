@@ -61,10 +61,8 @@ function MetricCard({ label, value, suffix }: Metric) {
           {count}
           {suffix}
         </div>
-        <div className="mt-2 text-sm text-gray-300">{label}</div>
+        <div className="mt-2 text-sm text-gray-300 whitespace-nowrap">{label}</div>
       </div>
     </div>
   );
 }
-
-
