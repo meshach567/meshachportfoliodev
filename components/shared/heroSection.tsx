@@ -58,7 +58,7 @@ function HeroSection() {
                 <span className="bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent font-medium">
                   I am delving into AI and Machine Learning, exploring how
                   these technologies can enhance user experiences and
-                  application performance.
+                  application performance. {" "}
                 </span>
                 <span className="bg-gradient-to-r from-blue-300 to-cyan-300 bg-clip-text text-transparent font-medium">
                   I have experience in building web applications using
@@ -68,7 +68,7 @@ function HeroSection() {
                   I have worked on mobile applications using React Native and Expo.
                 </span>{" "}
                 <span className="bg-gradient-to-r from-blue-300 to-cyan-300 bg-clip-text text-transparent font-medium">
-                While working on frontend project, I have make used of Headless CMS like WordPress, Strapi, Sanity, and Contentful. to build blogs. {" "}
+                While working on frontend project, I have make used of Headless CMS like WordPress, Strapi, Sanity, and Contentful to build blogs. {" "}
                 </span>
                 <span className="bg-gradient-to-r from-rose-300 to-pink-300 bg-clip-text text-transparent font-medium">
                   {" "}
