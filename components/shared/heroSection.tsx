@@ -53,7 +53,7 @@ function HeroSection() {
                 </span>
                 <span className="bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent font-medium">
                   Currently, I am writing Rust for Blockchain and learning how
-                  Bitcoin is been develop.
+                Bitcoin is been develop. {" "}
                 </span>
                 <span className="bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent font-medium">
                   I am delving into AI and Machine Learning, exploring how
