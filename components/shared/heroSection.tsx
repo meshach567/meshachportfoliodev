@@ -36,14 +36,14 @@ function HeroSection() {
 
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-4 md:mb-6 lg:mb-8">
                 <span className="bg-gradient-to-r from-white/90 to-white/70 bg-clip-text text-transparent">
-                  Hi, my name is Meshach
+                  Hi, my name is
                 </span>{" "}
                 <span className="bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent">
-                  Arinze
+                Meshach Arinze
                 </span>
               </h1>
 
-              <div className="text-gray-300 text-sm sm:text-base md:text-[15px] mb-6 md:mb-8 lg:mb-10 max-w-2xl leading-relaxed">
+              <div className="text-gray-300 text-sm sm:text-base md:text-[15px] mb-6 md:mb-8 lg:mb-10 max-w-2xl leading-relaxed text-justify">
                 <span className="bg-gradient-to-r from-indigo-300 to-purple-300 bg-clip-text text-transparent font-medium">
                   Over the past few years in tech, I have worked in role that fit both Frontend, Backend, and Mobile development.{" "}
                 </span>
