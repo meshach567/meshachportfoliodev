@@ -62,7 +62,7 @@ function HeroSection() {
                 </span>
                 <span className="bg-gradient-to-r from-blue-300 to-cyan-300 bg-clip-text text-transparent font-medium">
                   I have experience in building web applications using
-                  frameworks like React.js, Next.js, Express.js, Nest.js, and FastAPI.{" "}
+                  frameworks like Vue.js, Nuxt.js, React.js, Next.js, Express.js, Nest.js, and FastAPI.{" "}
                 </span>
                 <span className="bg-gradient-to-r from-blue-300 to-cyan-300 bg-clip-text text-transparent font-medium">
                   I have worked on mobile applications using React Native and Expo.
