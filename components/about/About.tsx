@@ -32,10 +32,10 @@ export default function About() {
           <div className="col-span-12 md:col-span-7 text-gray-300 leading-relaxed">
             <SlideIn direction="right">
               <p className="mb-4">
-                I am a Fullstack TypeScript Developer focused on building fast, scalable, and reliable web applications. My work blends strong engineering practices with thoughtful UI/UX, enabling teams to ship with confidence.
+                I am a Fullstack Developer focused on building fast, scalable, and reliable web applications. My work blends strong engineering practices with thoughtful UI/UX, enabling teams to ship with confidence.
               </p>
               <p className="mb-4">
-                I specialize in <span className="text-white font-medium">React, Next.js, Node.js</span>, and modern tooling across the web stack. I enjoy designing clean component systems, improving performance, and collaborating on product experiences end-to-end.
+                I specialize in <span className="text-white font-medium">React, Next.js, React Native Node.js</span>, and modern tooling across the web stack. I enjoy designing clean component systems, improving performance, and collaborating on product experiences end-to-end.
               </p>
               <p className="mb-4">
                 Beyond coding, I mentor, write, and explore ways to make product development more predictable and enjoyable. I value clarity, maintainability, and measurable impact.
