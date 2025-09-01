@@ -9,7 +9,7 @@ type Metric = {
 };
 
 const metrics: Metric[] = [
-  { label: "Years Experience", value: 3, suffix: "+" },
+  { label: "Years Experience", value: 4, suffix: "+" },
   { label: "Projects Shipped", value: 35, suffix: "+" },
   { label: "Happy Clients", value: 18, suffix: "+" },
   { label: "Open Source PRs", value: 50, suffix: "+" },
