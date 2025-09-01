@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="col-span-12 md:col-span-4">
           <h3 className="text-white font-semibold mb-3">Meshach Arinze</h3>
           <p className="leading-relaxed">
-            Fullstack TypeScript Developer. I build fast, scalable products with clean code and thoughtful UI/UX.
+            Fullstack Developer. I build fast, scalable products with clean code and thoughtful UI/UX.
           </p>
         </div>
 
