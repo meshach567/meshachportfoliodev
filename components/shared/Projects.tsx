@@ -107,26 +107,18 @@ export const Projects = () => {
 
               {/* GRID SECTION */}
               <section className="grid grid-cols-12 gap-4">
-                <div
-                  className={`col-span-12 xl:col-span-6 ${
-                    project.device === "laptop" &&
-                    " xl:rounded-tr-3xl xl:border-t-[1px] xl:border-r-[1px] xl:border-white/5"
-                  }`}
-                >
+                <div className="col-span-12">
                   <Image
                     src={project.image}
                     alt={`${project.title} project screenshot`}
-                    className={`object-cover h-40 sm:h-56 md:h-56 lg:h-64 xl:h-[400px] w-auto mx-auto ${
-                      project.device === "laptop" &&
-                      "sm:w-full sm:object-center xl:object-left xl:border-t-[16px] xl:border-r-[16px] xl:border-neutral-950 xl:rounded-tr-3xl xl:rounded-bl-3xl"
-                    }`}
+                    className="w-full object-cover h-48 sm:h-60 md:h-72 lg:h-80 xl:h-[420px]"
                     width={800}
                     height={400}
-                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 800px"
+                    sizes="(max-width: 1280px) 100vw, 800px"
                     loading="lazy"
                   />
                 </div>
-                <div className="col-span-12 xl:col-span-6 px-6 pt-6 text-left">
+                <div className="col-span-12 px-6 pt-6 text-left">
                   {/* HEADER SECTION */}
                   <h1 className="text-gray-200 text-2xl md:text-3xl mb-1 font-medium flex items-center gap-2">
                     {project.title}
