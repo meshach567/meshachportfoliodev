@@ -56,6 +56,8 @@ export const projectData = [
     livePreview: "https://zormor.com",
     sourceCode: "https://github.com/zormor",
     image: "/assets/images/zormor.png",
+    learnings:
+      "Designed a clean ecommerce UI with responsive grids and reusable components. Improved state management patterns and accessibility with semantic HTML.",
   },
   {
     title: "Summer of Bitcoin",
@@ -88,6 +90,8 @@ export const projectData = [
     livePreview: "https://meek-crostata-7337cc.netlify.app/home/",
     sourceCode: "https://github.com/10Billion",
     image: "/assets/images/estate_home.PNG",
+    learnings:
+      "Built a performant dashboard UI, optimized images, and learned to structure feature modules for clarity and reusability.",
   },
   {
     title: "X-APP",
@@ -128,6 +132,8 @@ export const projectData = [
     livePreview: "https://x-app-cbm9.onrender.com/",
     sourceCode: "https://github.com/meshach567",
     image: "/assets/images/X_app.PNG",
+    learnings:
+      "Crafted a social feed with consistent spacing/typography scales and responsive cards; refined API error handling and optimistic UI patterns.",
   },
   {
     title: "AirBNB",
@@ -159,6 +165,8 @@ export const projectData = [
     livePreview: "https://airbnbclone-rosy.vercel.app/",
     sourceCode: "https://github.com/meshach567/airbnb-clone",
     image: "/assets/images/airbnb.png",
+    learnings:
+      "Implemented complex layouts (filters, listings, modals) with Tailwind while maintaining accessibility and mobile-first responsiveness.",
   },
   {
      title: "FeedbackHub",
@@ -186,6 +194,8 @@ export const projectData = [
     livePreview: "https://feedbackhub-frontend.vercel.app/",
     sourceCode: "https://github.com/MeshachArinze/feedbackhub-frontend",
     image: "/assets/images/feedbackhub.png",
+    learnings:
+      "Built consistent design tokens and component library; improved form UX, validation, and empty/loading states.",
   }, 
   {
     title: "Spotify Clone",
@@ -213,6 +223,8 @@ export const projectData = [
     livePreview: "https://spotifyclone-git-master-meshacharinze.vercel.app/",
     sourceCode: "https://github.com/MeshachArinze/ReactOnly/tree/master/spotifyclone",
     image: "/assets/images/spotifylogin.png",
+    learnings:
+      "Practiced audio UI patterns, skeleton loading, and responsive navigation that adapts from mobile to desktop.",
   },
   {
     title: "FeedbackHub UI",
@@ -240,6 +252,8 @@ export const projectData = [
     livePreview: "https://spotifyclone-git-master-meshacharinze.vercel.app/",
     sourceCode: "https://github.com/MeshachArinze/ReactOnly/tree/master/spotifyclone",
     image: "/assets/images/spotifylogin.png",
+    learnings:
+      "Focused on design systems: spacing, color, and component composition for maintainable UI.",
   }, 
   {
     title: "Payment Gateway",
@@ -267,6 +281,8 @@ export const projectData = [
     livePreview: "https://651f1d8c64de0300907a6a31--graceful-empanada-d6ae4c.netlify.app/",
     sourceCode: "https://github.com/MeshachArinze/ReactOnly/tree/master/spotifyclone",
     image: "/assets/images/stripepayment.png",
+    learnings:
+      "Refined form flows and visual hierarchy for trust; handled error states and cross-device testing.",
   }, 
   {
     title: "Market Place",
@@ -294,6 +310,8 @@ export const projectData = [
     livePreview: "https://651f1d8c64de0300907a6a31--graceful-empanada-d6ae4c.netlify.app/",
     sourceCode: "https://github.com/MeshachArinze/ReactOnly/tree/master/spotifyclone",
     image: "/assets/images/marketplace.png",
+    learnings:
+      "Designed compact mobile-first UI with fast list virtualization and touch-friendly targets.",
   },
   {
    title: "Astrowind",
@@ -321,6 +339,8 @@ export const projectData = [
     livePreview: "https://651f1d8c64de0300907a6a31--graceful-empanada-d6ae4c.netlify.app/",
     sourceCode: "https://github.com/MeshachArinze/ReactOnly/tree/master/spotifyclone",
     image: "/assets/images/astroportfoli.png", 
+    learnings:
+      "Built a polished personal site with scroll animations, content layout, and performance tuning.",
   },
   {
     title: "storage app",
@@ -348,5 +368,7 @@ export const projectData = [
     livePreview: "https://651f1d8c64de0300907a6a31--graceful-empanada-d6ae4c.netlify.app/",
     sourceCode: "https://github.com/MeshachArinze/ReactOnly/tree/master/spotifyclone",
     image: "/assets/images/storagemanagement.png",
+    learnings:
+      "Improved data visualization and responsive tables/cards for small screens.",
   }
 ];

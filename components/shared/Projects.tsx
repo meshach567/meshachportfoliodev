@@ -136,6 +136,13 @@ export const Projects = () => {
                     {project.description}
                   </p>
 
+                  {/* Skill badges */}
+                  <div className="flex flex-wrap gap-2 mt-4">
+                    <span className="px-2 py-1 text-xs rounded-full border border-white/10 bg-white/5 text-gray-300">UI/UX</span>
+                    <span className="px-2 py-1 text-xs rounded-full border border-white/10 bg-white/5 text-gray-300">Responsive</span>
+                    <span className="px-2 py-1 text-xs rounded-full border border-white/10 bg-white/5 text-gray-300">Clean Structure</span>
+                  </div>
+
                   {/* TECHNOLOGIES USED ICONS */}
                   <ul className="pt-11 flex items-center gap-2">
                     {project.technologies.map((tech, techIndex) => (
@@ -151,6 +158,14 @@ export const Projects = () => {
                       </li>
                     ))}
                   </ul>
+
+                  {/* Learnings */}
+                  {project.learnings && (
+                    <div className="mt-5 text-sm text-gray-300 leading-relaxed">
+                      <span className="text-white/80 font-medium">What I learned: </span>
+                      {project.learnings}
+                    </div>
+                  )}
 
                   {/* LIVE PREVIEW LINK */}
                   <section className="pt-6 md:pt-8">
